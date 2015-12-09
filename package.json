@@ -34,7 +34,7 @@
     "gulp-cssmin": "*",
     "gulp-header": "*",
     "gulp-minify-css": "*",
-    "gulp-sass": "*",
+    "gulp-sass": "^2.1.0",
     "gulp-strip-css-comments": "*",
     "gulp-uglify": "*",
     "gulp-util": "*",
