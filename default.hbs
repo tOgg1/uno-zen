@@ -4,6 +4,7 @@
     <title>{{meta_title}}</title>
     {{> meta}}
     <link rel="stylesheet" type="text/css" href="{{asset "css/uno-zen.css"}}" />
+	<link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}"/>
     {{ghost_head}}
   </head>
   <body class="{{body_class}}">
@@ -68,5 +69,6 @@
 			    jQuery('.content-list-content li').click(function(){ mathjaxify(); });
 				    }, 500);
 		</script>
+		<script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
   </body>
 </html>
